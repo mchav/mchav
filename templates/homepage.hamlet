@@ -1,0 +1,21 @@
+<div class="header">
+    <h2>Michael's Blog
+
+<div class="row">
+    <div class="leftcolumn">
+        $forall Entity postId post <- posts
+            <div class="card">
+                <h2>
+                    <a href=@{PostR postId}>#{postTitle post}
+                <h5>#{formatTime defaultTimeLocale "%Y/%m/%d" (postCreated post)}
+                <p>^{preEscapedToMarkup $ postContents post}
+    <div class="rightcolumn">
+        <div class="card">
+            <h2>About Me
+                <p>I aim to be a cross-subject intellectual with technology as my foremost tool.
+        <div class="card">
+            <h3>Follow Me
+            <p>Twitter @MichaelChavinda
+
+<div class="footer">
+    <p> All thoughts are my own. 

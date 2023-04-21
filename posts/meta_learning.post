@@ -1,0 +1,8 @@
+2023/04/15
+Meta-learning
+Current machine learning algorithms all use an unreasonable amount of data for training.
+The industry has had a lot of success recently with extremely large language models.
+While impressive, large language models are known to hallucinate.
+This is because they have no way of knowing what is "true" and how to discern what is likely
+true from what is likely false. The current solution seems to be to throw as much data
+at them until they can stochastically infer the truth from sequence likelihood.
