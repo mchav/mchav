@@ -1,4 +1,4 @@
 
 <a>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=mchav&theme=dark"/>
+  <img align="center" src="[https://github-stats-extended.vercel.app/api?username=mchav&theme=dark"/>
 </a>
